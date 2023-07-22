@@ -1,0 +1,30 @@
+
+#table{
+   border: 1px solid grey;
+   width: 80%;
+   margin: auto;
+   border-radius: 8px;
+   
+}
+
+.headings{
+    border: 1px solid grey;
+    height: 50px;
+    border-radius:8px;
+   
+}
+
+#block-table{
+    border: 1px solid grey;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.td{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 19vw;
+    padding: 15px 25px;
+}

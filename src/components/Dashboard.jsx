@@ -48,7 +48,7 @@ const Dashboard = () => {
     },[last_block_Number]);
      
     useEffect(()=>{
-        const provider=new ethers.providers.InfuraProvider(null,"310b752459754842a6d0b5d6d9e617a2");
+        const provider=new ethers.providers.InfuraProvider(null,process.env.INFURA_KEY);
         const timerCall=setInterval(()=>{
             getBlocks(provider);
         },1500);
